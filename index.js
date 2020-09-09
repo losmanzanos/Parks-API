@@ -34,6 +34,7 @@ function displayResults(responseJson) {
 };
 
 function getParks(query, maxResults) {
+  $('#loading').removeClass('hidden');
   const params = {
     api_key: apiKey,
     stateCode: query,
@@ -46,6 +47,7 @@ function getParks(query, maxResults) {
 
   fetch(url)
     .then(response => {
+      $('#loading').addClass('hidden');
       if (response.ok) {
         return response.json();
       }

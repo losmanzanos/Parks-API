@@ -8,6 +8,11 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
+#loading {
+  height: 50px;
+  padding-top: 50px;
+}
+
 /*
 ===========
 Search Page
