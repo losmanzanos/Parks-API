@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -76,3 +77,47 @@
     <script src="index.js"></script>
   </body>
 </html>
+=======
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Mountains Are Calling...</title>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <img src="images/The%20Mountains%20Are%20Calling.png" alt="mountains" id="mountains">
+
+    <div class="container">
+
+        <form id="js-form">
+            <p>Which state(s) should we search for national parks in?<br><br>Please enter a comma delimited list of 2 character state codes.<br>For example: CO,UT
+            </p>
+            <input type="text" name="search-term" id="js-search-term" placeholder="CO" required>
+            <br>
+            <input type="number" min="1" max="10" name="max-results" id="js-max-results" placeholder="Maximum number of results" value="10" required>
+
+            <button type="submit" id="submit"><span class="trees">Submit!</span></button>
+            <br>
+            <img src="images/loading.gif" alt="loading" id="loading" class="hidden">
+        </form>
+
+        <p id="js-error-message" class="error-message"></p>
+
+        <section id="results" class="hidden">
+          <h2 id="boom">Check out these <span class="rad">RAD</span> parks!</h2>
+          <ul id="results-list">
+              <!--Insert Parks Here!-->
+          </ul>
+        </section>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>
+>>>>>>> 4f79e5ced40b6a4d11f8ca03fd65701f2c714182
