@@ -139,6 +139,10 @@ Media Queries
     margin: auto;
   }
 
+  .container p {
+    padding: 0 10px;
+  }
+
   ul {
     list-style: none;
     text-decoration: none;
