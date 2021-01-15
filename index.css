@@ -5,11 +5,7 @@ Universal
 */
 
 body {
-<<<<<<< HEAD
   font-family: "Quicksand", sans-serif;
-=======
-  font-family: 'Quicksand', sans-serif;
->>>>>>> 4f79e5ced40b6a4d11f8ca03fd65701f2c714182
 }
 
 #loading {
@@ -32,21 +28,13 @@ Search Page
   margin-right: auto;
 }
 
-<<<<<<< HEAD
 input[type="text"] {
-=======
-input[type=text] {
->>>>>>> 4f79e5ced40b6a4d11f8ca03fd65701f2c714182
   width: 300px;
   height: 25px;
   margin-bottom: 15px;
 }
 
-<<<<<<< HEAD
 input[type="number"] {
-=======
-input[type=number] {
->>>>>>> 4f79e5ced40b6a4d11f8ca03fd65701f2c714182
   width: 200px;
   height: 25px;
 }
@@ -57,11 +45,7 @@ button {
 }
 
 button:hover .trees {
-<<<<<<< HEAD
   display: none;
-=======
-  display: none
->>>>>>> 4f79e5ced40b6a4d11f8ca03fd65701f2c714182
 }
 
 #submit:hover:before {
@@ -81,11 +65,7 @@ form {
 }
 
 .error-message {
-<<<<<<< HEAD
   color: red;
-=======
-    color: red;
->>>>>>> 4f79e5ced40b6a4d11f8ca03fd65701f2c714182
 }
 
 .hidden {
@@ -103,33 +83,18 @@ Results
 }
 
 .rad {
-<<<<<<< HEAD
   font-family: "Creepster", cursive;
   color: rgb(251, 107, 170);
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-=======
-  font-family: 'Creepster', cursive;
-  color:rgb(251, 107, 170);
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black; 
->>>>>>> 4f79e5ced40b6a4d11f8ca03fd65701f2c714182
 }
 
 ul {
   list-style: none;
-<<<<<<< HEAD
   text-decoration: none;
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;
-=======
-  margin: auto;
-}
-
-li {
-  margin: auto;
->>>>>>> 4f79e5ced40b6a4d11f8ca03fd65701f2c714182
 }
 
 hr {
@@ -151,7 +116,6 @@ Media Queries
 */
 
 @media screen and (max-width: 768px) {
-<<<<<<< HEAD
   input[type="text"] {
     height: 25px;
     width: auto;
@@ -192,26 +156,3 @@ Media Queries
     font-size: 15px;
   }
 }
-=======
-  input[type=text] {
-      height: 25px;
-      width: auto;
-      margin: auto;
-  }
-  
-  input[type=number] {
-      height: 25px;
-      width: auto;
-      margin: auto;
-  }
-  
-  button {
-      height: 31px;
-      margin-top: 10px;
-  }
-
-  .container {
-      margin-bottom: 25px;
-  }
-}
->>>>>>> 4f79e5ced40b6a4d11f8ca03fd65701f2c714182
